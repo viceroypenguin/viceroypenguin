@@ -21,6 +21,7 @@ I am working on rebuilding my blog here on GitHub.
 ## &#x1f4c8; GitHub Stats
 
 ![viceroypenguin's GitHub Stats][20]
+![viceroypenguin's Trophys][25]
 
 <!--GITHUB_ACTIVITY:{"rows": 5}-->
 
@@ -32,3 +33,4 @@ I am working on rebuilding my blog here on GitHub.
 
 
 [20]: https://github-readme-stats.vercel.app/api?username=viceroypenguin&count_private=true&show_icons=true&theme=tokyonight&hide=contribs
+[25]: https://github-profile-trophy.vercel.app/?username=viceroypenguin&theme=onedark&rank=SECRET,SSS,SS,S,AAA,AA,A
