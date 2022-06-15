@@ -20,6 +20,7 @@ I am working on rebuilding my blog here on GitHub.
 
 ## &#x1f4c8; GitHub Stats
 
+[![viceroypenguin's Summary](https://raw.githubusercontent.com/viceroypenguin/viceroypenguin/master/profile-summary-card-output/tokyonight/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 ![viceroypenguin's GitHub Stats][20]
 ![viceroypenguin's Trophys][25]
 
