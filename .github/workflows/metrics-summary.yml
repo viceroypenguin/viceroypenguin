@@ -8,39 +8,40 @@ on:
 jobs:
   lowlighter-metrics:
     runs-on: ubuntu-latest
-    - uses: lowlighter/metrics@latest
-      with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org  (for organization related metrics)
-          #  - read:user (for user related data)
-          #  - repo      (optional, if you want to include private repositories)
-          token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@latest
+        with:
+            # Your GitHub token
+            # The following scopes are required:
+            #  - public_access (default scope)
+            # The following additional scopes may be required:
+            #  - read:org  (for organization related metrics)
+            #  - read:user (for user related data)
+            #  - repo      (optional, if you want to include private repositories)
+            token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
 
-          # Options
-          user: viceroypenguin
-          template: classic
-          config_timezone: America/Chicago
+            # Options
+            user: viceroypenguin
+            template: classic
+            config_timezone: America/Chicago
 
-          # Base
-          base: header, activity, community, repositories, metadata
-          base_indepth: yes
+            # Base
+            base: header, activity, community, repositories, metadata
+            base_indepth: yes
 
-          # Traffic
-          plugin_traffic: yes
+            # Traffic
+            plugin_traffic: yes
 
-          # Repositories
-          plugin_repositories: yes
-          plugin_repositories_pinned: 6
+            # Repositories
+            plugin_repositories: yes
+            plugin_repositories_pinned: 6
 
-          # Achievements
-          plugin_achievements: yes
+            # Achievements
+            plugin_achievements: yes
 
-          # Activity
-          plugin_activity: yes
+            # Activity
+            plugin_activity: yes
 
-          # Notable
-          plugin_notable: yes
-          
+            # Notable
+            plugin_notable: yes
