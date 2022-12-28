@@ -25,6 +25,7 @@ jobs:
             user: viceroypenguin
             template: classic
             config_timezone: America/Chicago
+            config_order: base, notable, achievements, activity
 
             # Base
             base: header, activity, community, repositories, metadata
@@ -32,10 +33,6 @@ jobs:
 
             # Traffic
             plugin_traffic: yes
-
-            # Repositories
-            plugin_repositories: yes
-            plugin_repositories_pinned: 6
 
             # Achievements
             plugin_achievements: yes
