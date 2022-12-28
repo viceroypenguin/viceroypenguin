@@ -25,7 +25,7 @@ jobs:
             user: viceroypenguin
             template: classic
             config_timezone: America/Chicago
-            config_order: base, notable, achievements, activity
+            config_order: base.header, introduction, base.activity+community, base.repositories, notable, achievements, activity
 
             # Base
             base: header, activity, community, repositories, metadata
