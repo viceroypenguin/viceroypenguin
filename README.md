@@ -1,7 +1,5 @@
 # 👋 Hello, folks!
 
-My name is Stuart Turner and I am a contract software developer. I am currently contracted to a client in San Jose, but I am always open to additional opportunities. You can find me on [![LinkedIn][10.2]][10].
-
 ## &#x270d; Blog & Writing
 
 I am working on rebuilding my blog here on GitHub.
