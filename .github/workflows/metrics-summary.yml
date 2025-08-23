@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@master
+      - uses: gh-metrics/metrics@master
         with:
             # Your GitHub token
             # The following scopes are required:
@@ -41,3 +41,4 @@ jobs:
 
             # Activity
             plugin_activity: yes
+
